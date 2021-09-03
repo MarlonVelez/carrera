@@ -29,11 +29,16 @@ public class Carrera {
            Proceso hilo1 = new Proceso("P1", laPista);
            Proceso hilo2 = new Proceso("P2", laPista);
            Proceso hilo3 = new Proceso("P3", laPista);
+                System.out.println("hola mundo yduhfubdau[b"
+                        + "fcafdf"
+                        + "");
            hilo1.start();
            hilo2.start();
            hilo3.start();
             }
         });
+        
+        System.out.println("pedro el escamoso");
     }
     
 }
